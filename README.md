@@ -4,6 +4,8 @@ Inspector is a little tool/library to pull layers of an Image from the Docker li
 
 ## Usage
 
+`stack ghci src/Main.hs`
+
 - `createLayers "<IMAGE_WITHOUT_TAG>"`
 will create a folder in the current working directory and will pull the layers and store them in a tar archive.
 
